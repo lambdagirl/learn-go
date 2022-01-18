@@ -30,9 +30,12 @@ func main() {
 		}
 	}
 }
+
 func countLines(f *os.File, counts map[string]int) {
 	input := bufio.NewScanner(f)
 	for input.Scan() {
 		counts[input.Text()]++
 	}
 }
+
+// Notes: functions and other packages-level entities may be declared in any order.

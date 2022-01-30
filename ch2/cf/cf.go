@@ -6,7 +6,7 @@ import (
 	"os"
 	"strconv"
 
-	"gop1.io/ch2/tempcovns"
+	"learn-go/ch2/tempcovns"
 )
 
 func main() {
